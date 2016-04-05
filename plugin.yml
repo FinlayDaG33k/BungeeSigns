@@ -1,0 +1,11 @@
+name: BungeeSigns
+author: FinlayDaG33k
+website: https://www.finlaydag33k.nl
+version: 3.9
+main: de.finlaydag33k.BungeeSigns.BungeeSigns
+
+commands:
+  createsign:
+    description: Create a sign to teleport a Player to another server
+    usage: /createsign <Name of the Sign> <Name of the Server> <IP> <Port>
+    permission: bungeesigns.create
